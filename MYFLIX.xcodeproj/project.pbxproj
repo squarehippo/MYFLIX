@@ -13,7 +13,32 @@
 		C55A152E1C4EBDC500EA6871 /* MYFLIX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C55A152C1C4EBDC500EA6871 /* MYFLIX.xcdatamodeld */; };
 		C55A15301C4EBDC500EA6871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55A152F1C4EBDC500EA6871 /* Assets.xcassets */; };
 		C55A15331C4EBDC500EA6871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55A15311C4EBDC500EA6871 /* LaunchScreen.storyboard */; };
+		C55A153C1C4F00D600EA6871 /* Movies+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A153A1C4F00D600EA6871 /* Movies+CoreDataProperties.swift */; };
+		C55A153D1C4F00D600EA6871 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A153B1C4F00D600EA6871 /* Movies.swift */; };
+		C55A15421C4F015D00EA6871 /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15411C4F015D00EA6871 /* AddMovieViewController.swift */; };
+		C55A15441C4F025D00EA6871 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15431C4F025D00EA6871 /* MovieCell.swift */; };
+		C55A15B71C50387E00EA6871 /* ButtonExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15B41C50387E00EA6871 /* ButtonExtender.swift */; };
+		C55A15B81C50387E00EA6871 /* ImageExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15B51C50387E00EA6871 /* ImageExtender.swift */; };
+		C55A15B91C50387E00EA6871 /* ViewExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15B61C50387E00EA6871 /* ViewExtender.swift */; };
+		C55A15BB1C504BFD00EA6871 /* TextViewExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15BA1C504BFD00EA6871 /* TextViewExtender.swift */; };
+		C55A15BD1C518E2200EA6871 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15BC1C518E2200EA6871 /* MovieDetailsViewController.swift */; };
+		C55A15BF1C52072700EA6871 /* VisualEffectsExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15BE1C52072700EA6871 /* VisualEffectsExtender.swift */; };
+		C55A15DF1C52C89E00EA6871 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15DE1C52C89E00EA6871 /* VC2.swift */; };
+		C5B79C491C52F86C00F565BD /* TextFieldExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B79C481C52F86C00F565BD /* TextFieldExtender.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C55A15881C501A9900EA6871 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C55A15221C4EBDC500EA6871 /* MYFLIX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYFLIX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +49,18 @@
 		C55A152F1C4EBDC500EA6871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C55A15321C4EBDC500EA6871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C55A15341C4EBDC500EA6871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55A153A1C4F00D600EA6871 /* Movies+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Movies+CoreDataProperties.swift"; path = "../Movies+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C55A153B1C4F00D600EA6871 /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movies.swift; path = ../Movies.swift; sourceTree = "<group>"; };
+		C55A15411C4F015D00EA6871 /* AddMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
+		C55A15431C4F025D00EA6871 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C55A15B41C50387E00EA6871 /* ButtonExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtender.swift; sourceTree = "<group>"; };
+		C55A15B51C50387E00EA6871 /* ImageExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtender.swift; sourceTree = "<group>"; };
+		C55A15B61C50387E00EA6871 /* ViewExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtender.swift; sourceTree = "<group>"; };
+		C55A15BA1C504BFD00EA6871 /* TextViewExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewExtender.swift; sourceTree = "<group>"; };
+		C55A15BC1C518E2200EA6871 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		C55A15BE1C52072700EA6871 /* VisualEffectsExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectsExtender.swift; sourceTree = "<group>"; };
+		C55A15DE1C52C89E00EA6871 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		C5B79C481C52F86C00F565BD /* TextFieldExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +93,51 @@
 		C55A15241C4EBDC500EA6871 /* MYFLIX */ = {
 			isa = PBXGroup;
 			children = (
+				C55A15401C4F00F100EA6871 /* Controller */,
+				C55A153F1C4F00EB00EA6871 /* View */,
+				C55A153E1C4F00E500EA6871 /* Model */,
 				C55A15251C4EBDC500EA6871 /* AppDelegate.swift */,
-				C55A15271C4EBDC500EA6871 /* ViewController.swift */,
-				C55A15291C4EBDC500EA6871 /* Main.storyboard */,
 				C55A152F1C4EBDC500EA6871 /* Assets.xcassets */,
 				C55A15311C4EBDC500EA6871 /* LaunchScreen.storyboard */,
 				C55A15341C4EBDC500EA6871 /* Info.plist */,
 				C55A152C1C4EBDC500EA6871 /* MYFLIX.xcdatamodeld */,
 			);
 			path = MYFLIX;
+			sourceTree = "<group>";
+		};
+		C55A153E1C4F00E500EA6871 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C55A153A1C4F00D600EA6871 /* Movies+CoreDataProperties.swift */,
+				C55A153B1C4F00D600EA6871 /* Movies.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C55A153F1C4F00EB00EA6871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C55A15B41C50387E00EA6871 /* ButtonExtender.swift */,
+				C55A15B51C50387E00EA6871 /* ImageExtender.swift */,
+				C55A15B61C50387E00EA6871 /* ViewExtender.swift */,
+				C55A15291C4EBDC500EA6871 /* Main.storyboard */,
+				C55A15431C4F025D00EA6871 /* MovieCell.swift */,
+				C55A15BA1C504BFD00EA6871 /* TextViewExtender.swift */,
+				C55A15BE1C52072700EA6871 /* VisualEffectsExtender.swift */,
+				C5B79C481C52F86C00F565BD /* TextFieldExtender.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C55A15401C4F00F100EA6871 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C55A15271C4EBDC500EA6871 /* ViewController.swift */,
+				C55A15411C4F015D00EA6871 /* AddMovieViewController.swift */,
+				C55A15BC1C518E2200EA6871 /* MovieDetailsViewController.swift */,
+				C55A15DE1C52C89E00EA6871 /* VC2.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +150,7 @@
 				C55A151E1C4EBDC500EA6871 /* Sources */,
 				C55A151F1C4EBDC500EA6871 /* Frameworks */,
 				C55A15201C4EBDC500EA6871 /* Resources */,
+				C55A15881C501A9900EA6871 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,9 +213,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55A15441C4F025D00EA6871 /* MovieCell.swift in Sources */,
+				C55A15BF1C52072700EA6871 /* VisualEffectsExtender.swift in Sources */,
+				C55A153D1C4F00D600EA6871 /* Movies.swift in Sources */,
+				C55A15B71C50387E00EA6871 /* ButtonExtender.swift in Sources */,
+				C55A153C1C4F00D600EA6871 /* Movies+CoreDataProperties.swift in Sources */,
+				C55A15BB1C504BFD00EA6871 /* TextViewExtender.swift in Sources */,
 				C55A152E1C4EBDC500EA6871 /* MYFLIX.xcdatamodeld in Sources */,
 				C55A15281C4EBDC500EA6871 /* ViewController.swift in Sources */,
+				C5B79C491C52F86C00F565BD /* TextFieldExtender.swift in Sources */,
 				C55A15261C4EBDC500EA6871 /* AppDelegate.swift in Sources */,
+				C55A15BD1C518E2200EA6871 /* MovieDetailsViewController.swift in Sources */,
+				C55A15B81C50387E00EA6871 /* ImageExtender.swift in Sources */,
+				C55A15421C4F015D00EA6871 /* AddMovieViewController.swift in Sources */,
+				C55A15B91C50387E00EA6871 /* ViewExtender.swift in Sources */,
+				C55A15DF1C52C89E00EA6871 /* VC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = MYFLIX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GetRunGo.MYFLIX;
@@ -265,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = MYFLIX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GetRunGo.MYFLIX;
@@ -291,6 +379,7 @@
 				C55A15391C4EBDC500EA6871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

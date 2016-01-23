@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MyCustomView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C55A15211C4EBDC500EA6871</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C55A157B1C501A9800EA6871</key>
 		<dict>
 			<key>primary</key>
 			<true/>
