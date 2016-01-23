@@ -23,7 +23,6 @@
 		C55A15BB1C504BFD00EA6871 /* TextViewExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15BA1C504BFD00EA6871 /* TextViewExtender.swift */; };
 		C55A15BD1C518E2200EA6871 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15BC1C518E2200EA6871 /* MovieDetailsViewController.swift */; };
 		C55A15BF1C52072700EA6871 /* VisualEffectsExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15BE1C52072700EA6871 /* VisualEffectsExtender.swift */; };
-		C55A15DF1C52C89E00EA6871 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A15DE1C52C89E00EA6871 /* VC2.swift */; };
 		C5B79C491C52F86C00F565BD /* TextFieldExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B79C481C52F86C00F565BD /* TextFieldExtender.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,6 @@
 		C55A15BA1C504BFD00EA6871 /* TextViewExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewExtender.swift; sourceTree = "<group>"; };
 		C55A15BC1C518E2200EA6871 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		C55A15BE1C52072700EA6871 /* VisualEffectsExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectsExtender.swift; sourceTree = "<group>"; };
-		C55A15DE1C52C89E00EA6871 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 		C5B79C481C52F86C00F565BD /* TextFieldExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,7 +133,6 @@
 				C55A15271C4EBDC500EA6871 /* ViewController.swift */,
 				C55A15411C4F015D00EA6871 /* AddMovieViewController.swift */,
 				C55A15BC1C518E2200EA6871 /* MovieDetailsViewController.swift */,
-				C55A15DE1C52C89E00EA6871 /* VC2.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -227,7 +224,6 @@
 				C55A15B81C50387E00EA6871 /* ImageExtender.swift in Sources */,
 				C55A15421C4F015D00EA6871 /* AddMovieViewController.swift in Sources */,
 				C55A15B91C50387E00EA6871 /* ViewExtender.swift in Sources */,
-				C55A15DF1C52C89E00EA6871 /* VC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

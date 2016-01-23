@@ -58,8 +58,8 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mbZ-7f-bZ7" userLabel="Plot background" customClass="ViewExtender" customModule="MYFLIX" customModuleProvider="target">
                                                             <rect key="frame" x="92" y="44" width="488" height="72"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PG-13" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrB-Qc-Nm1">
-                                                                    <rect key="frame" x="426" y="55" width="49" height="17"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PG-13" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrB-Qc-Nm1">
+                                                                    <rect key="frame" x="426" y="58" width="49" height="14"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="49" id="st9-qj-fu4"/>
                                                                     </constraints>
@@ -67,8 +67,8 @@
                                                                     <color key="textColor" red="0.86325886122307693" green="0.65431866385793813" blue="0.073217823001628685" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptw-Cc-y1s">
-                                                                    <rect key="frame" x="6" y="55" width="49" height="17"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptw-Cc-y1s">
+                                                                    <rect key="frame" x="6" y="58" width="49" height="14"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="49" id="UDb-jS-C90"/>
                                                                     </constraints>
@@ -131,8 +131,8 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Usr-fH-iJi" customClass="ViewExtender" customModule="MYFLIX" customModuleProvider="target">
                                                             <rect key="frame" x="92" y="4" width="488" height="36"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9H-Xf-wPr">
-                                                                    <rect key="frame" x="8" y="7" width="53" height="21"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9H-Xf-wPr">
+                                                                    <rect key="frame" x="8" y="7" width="48" height="21"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -409,8 +409,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AcD-LZ-bOH" customClass="ImageExtender" customModule="MYFLIX" customModuleProvider="target">
-                                <rect key="frame" x="20" y="183" width="560" height="323"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AcD-LZ-bOH" customClass="ImageExtender" customModule="MYFLIX" customModuleProvider="target">
+                                <rect key="frame" x="20" y="183" width="560" height="345"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="AcD-LZ-bOH" secondAttribute="height" multiplier="560:323" id="bve-HW-AwU"/>
                                     <constraint firstAttribute="width" secondItem="AcD-LZ-bOH" secondAttribute="height" multiplier="560:323" id="rKg-IW-Q94"/>
@@ -592,30 +592,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colorbg" translatesAutoresizingMaskIntoConstraints="NO" id="aDy-bV-V4d">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="waD-i4-soT">
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vFc-uq-m7a">
-                                        <rect key="frame" x="0.0" y="132" width="367" height="298"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.62766702586206902" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="195" id="I2v-bu-a2E"/>
-                                    <constraint firstItem="vFc-uq-m7a" firstAttribute="leading" secondItem="waD-i4-soT" secondAttribute="leading" constant="69" id="Isc-Ox-MiC"/>
-                                    <constraint firstAttribute="bottom" secondItem="vFc-uq-m7a" secondAttribute="bottom" constant="8" id="h6X-n8-iI7"/>
-                                    <constraint firstItem="vFc-uq-m7a" firstAttribute="top" secondItem="waD-i4-soT" secondAttribute="top" constant="9" id="kBM-ge-Qn3"/>
-                                    <constraint firstAttribute="trailing" secondItem="vFc-uq-m7a" secondAttribute="trailing" constant="69" id="zfr-0K-dIW"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="I2v-bu-a2E"/>
-                                        <exclude reference="Isc-Ox-MiC"/>
-                                        <exclude reference="h6X-n8-iI7"/>
-                                        <exclude reference="kBM-ge-Qn3"/>
-                                        <exclude reference="zfr-0K-dIW"/>
-                                    </mask>
-                                </variation>
-                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c3l-D4-3hn" customClass="ImageExtender" customModule="MYFLIX" customModuleProvider="target">
                                 <rect key="frame" x="328" y="10" width="252" height="257"/>
                                 <constraints>
@@ -786,7 +762,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="waD-i4-soT" firstAttribute="top" secondItem="dZS-cM-j2B" secondAttribute="bottom" constant="8" id="2X6-FJ-HYo"/>
                             <constraint firstItem="c3l-D4-3hn" firstAttribute="height" secondItem="dly-Ft-eUc" secondAttribute="height" id="5Vm-aG-g76"/>
                             <constraint firstAttribute="trailing" secondItem="aDy-bV-V4d" secondAttribute="trailing" id="5zc-eK-ZZk"/>
                             <constraint firstItem="aDy-bV-V4d" firstAttribute="top" secondItem="dZS-cM-j2B" secondAttribute="bottom" id="6d1-LK-DCf"/>
@@ -818,7 +793,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="c3l-D4-3hn" secondAttribute="trailing" constant="8" id="Xis-hM-MJF"/>
                             <constraint firstItem="c3l-D4-3hn" firstAttribute="leading" secondItem="UiJ-CX-tdL" secondAttribute="trailing" constant="8" id="av7-w8-9JE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="c3l-D4-3hn" secondAttribute="trailing" id="bMc-zb-tyD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="waD-i4-soT" secondAttribute="trailing" id="dqx-LF-ZQi"/>
                             <constraint firstItem="dly-Ft-eUc" firstAttribute="leading" secondItem="E4U-ls-9cW" secondAttribute="leadingMargin" id="eGN-OB-v0Z"/>
                             <constraint firstItem="F5V-Re-JcY" firstAttribute="leading" secondItem="UiJ-CX-tdL" secondAttribute="trailing" constant="8" id="etv-Wz-QSN"/>
                             <constraint firstItem="D4g-fm-0Pk" firstAttribute="top" secondItem="c3l-D4-3hn" secondAttribute="bottom" constant="8" id="g6k-Ey-5bm"/>
@@ -836,8 +810,6 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="2X6-FJ-HYo"/>
-                                <exclude reference="dqx-LF-ZQi"/>
                                 <exclude reference="77p-DP-uQa"/>
                                 <exclude reference="jVW-WN-g5G"/>
                                 <exclude reference="xQm-a4-OEY"/>
