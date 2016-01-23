@@ -2,4 +2,8 @@
 A favorite movie database using core data
 
 screenshots:
-![Alt text](/../<screenhsots>/myFlix/screen1.png?raw=true "Optional Title")
+
+![Alt text](/../screenshots/screen1.png?raw=true "Main screen")
+![Alt text](/../screenshots/screen2.png?raw=true "Main screen")
+![Alt text](/../screenshots/screen3.png?raw=true "Main screen")
+![Alt text](/../screenshots/screen4.png?raw=true "Main screen")
